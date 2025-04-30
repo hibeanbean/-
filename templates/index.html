@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历匹配分析</title>
+</head>
+<body>
+    <h1>简历匹配度分析工具</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="job_desc">职位描述:</label><br>
+        <textarea name="job_desc" rows="6" cols="50"></textarea><br><br>
+        
+        <label for="resume_file">上传简历（PDF 或 DOCX 格式）:</label><br>
+        <input type="file" name="resume_file" accept=".pdf, .docx" required><br><br>
+        
+        <input type="submit" value="分析简历">
+    </form>
+</body>
+</html>
